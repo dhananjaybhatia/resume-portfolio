@@ -25,12 +25,13 @@ const Footer = () => {
           Reach out to me today and let&apos;s discuss how I can help you
           achieve your goals.{" "}
         </p>
-        <Link href="mailto: dhananjaybhatia@yahoo.co.in" />
-        <MagicButton
-          title="Let's get in touch"
-          icon={<FaLocationArrow />}
-          position="right"
-        />
+        <a href="mailto: dhananjaybhatia@yahoo.co.in">
+          <MagicButton
+            title="Let's get in touch"
+            icon={<FaLocationArrow />}
+            position="right"
+          />
+        </a>
       </div>
       <div className="flex mt-16 justify-between items-center md:flex-row flex-col gap-4 md:gap-8">
         <p className="md:text-base text-sm md:font-normal font-light text-center">
